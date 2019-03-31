@@ -1,0 +1,684 @@
+
+<style> 
+.editorialNavigation {
+  background-color: green;
+}
+
+.picture-postion {
+  display: block;
+  margin-left: 50%;
+}
+
+#imag-background {
+  background-image: url("http://socialinnovationskane.se/wp-content/uploads/2018/03/foocafe_klar1.jpg");
+  min-height: 380px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#top-meny {
+  background-color: rgba(68, 96, 219, 0.897);
+  overflow: hidden;
+}
+
+#top-meny a {
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  display: block;
+  border-bottom: 3px solid transparent;
+}
+
+#top-meny a:hover {
+  border-bottom: solid 3px red;
+}
+
+.search-form {
+  cursor: pointer;
+  float: right;
+  margin-top: 19px;
+}
+
+.address {
+  margin-top: -300px;
+}
+
+#font-family {
+  font-family: Dancing Script;
+}
+
+#style-2 {
+  list-style: none;
+  background-color: white;
+  width: 250px;
+}
+
+/* كيفية جعل الكود مستقل عند تمرير الماوس فوقه */
+
+ul>li a {
+  display: block;
+  font-family: Encode Sans;
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 2px red transparent;
+}
+
+ul>li>.style-2-2:hover {
+  color: red;
+  border-bottom: solid 2px;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right-arow {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.searchSubmit {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.searchSubmit:hover {
+  background-color: red;
+}
+
+.searchInput {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+  .wrapper > div  
+ {
+  display: grid ; 
+  grid-template-rows: auto auto auto   ;
+}
+  
+
+
+</style>
+
+
+ 
+<!doctype html>
+
+<html class="no-js fullWidth hasMainNav" xml:lang="nl-NL" lang="nl-NL">
+  
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Rijksoverheid.nl is de website van het Rijk. Nieuws en informatie van de regering en de ministeries op 1 plek."/>
+    <meta name="DCTERMS.description" content="Rijksoverheid.nl is de website van het Rijk. Nieuws en informatie van de regering en de ministeries op 1 plek."/>
+    <title>Informatie van de Rijksoverheid | Rijksoverheid.nl</title>
+    <meta name="DCTERMS.title" content="Informatie van de Rijksoverheid - Rijksoverheid.nl"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="DCTERMS.language" title="XSD.language" content="nl-NL"/>
+    <meta name="DCTERMS.creator" title="RIJKSOVERHEID.Organisatie" content="Ministerie van Algemene Zaken"/>
+    <meta name="DCTERMS.identifier" title="XSD.anyURI" content="https://www.rijksoverheid.nl/"/>
+    <meta name="DCTERMS.available" title="DCTERMS.Period" content="start=2013-05-14;"/>
+    <meta name="DCTERMS.modified" title="XSD.dateTime" content="2019-03-22T14:03"/>
+    <meta name="DCTERMS.issued" title="XSD.dateTime" content="2013-05-14T11:36"/>
+    <meta name="DCTERMS.spatial" title="OVERHEID.Koninkrijksdeel" content="Nederland"/>
+    <meta name="DCTERMS.publisher" title="RIJKSOVERHEID.Organisatie" content="Ministerie van Algemene Zaken"/>
+    <meta name="DCTERMS.rights" content="CC0 1.0 Universal"/>
+    <meta name="DCTERMS.rightsHolder" title="RIJKSOVERHEID.Organisatie" content="Ministerie van Algemene Zaken"/>
+    <!--<meta name="OVERHEID.authority" title="RIJKSOVERHEID.Organisatie" content="Ministerie van Algemene Zaken"/>-->
+    <meta name="DCTERMS.type" title="RIJKSOVERHEID.Informatietype" content="webpagina"/>
+    <meta name="referrer" content="origin"/>
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    
+    <link herf="style.css" rel="stylesheet" > 
+    
+  </head>
+  
+  <!--https://www.youtube.com/watch?v=jV8B24rSN5o-->
+  <body >
+    
+    <div class="picture-postion">
+      <img src="https://www.rijksoverheid.nl/binaries/content/gallery/rijksoverheid/channel-afbeeldingen/logos/logo-ro.svg" alt ="log-picture" /> 
+    </div>
+    
+  </div><div id="imag-background">   
+    <div id = "content" >
+      <div  id= "top-meny">
+        
+            <a style ="float : left" href = "/">Home</a>
+       
+          <a href="/actueel">Actueel</a>
+        
+          <a href="/onderwerpen">Onderwerpen</a>
+       
+          <a href="/ministeries">Ministeries</a>
+       
+          <a href="/regering">Regering</a>
+        
+          <a href="/documenten">Documenten</a>
+       
+          <a href="/doe-mee">Doe mee</a>
+      </div>
+    </div>
+  
+<div class ="search-form" >
+  <form  method="get" action="/zoeken" id="search-form">
+    <label for="search-keyword"></label>
+    <input type="text" id="search-keyword" class="searchInput" name="trefwoord"
+      title="Type hier uw zoektermen" placeholder="Zoeken" />
+    <button id="search-submit" class="searchSubmit" name="search-submit" type="submit" 
+        title="Start het zoeken">
+      Zoek</button>
+  </form>
+</div>
+</div>
+
+</div>
+  
+     <div class ="address" >
+           <h2 id= "font-family">Veel bekeken</h2>
+                    
+         <ul id="style-2">
+              <li>
+                <a  class= "style-2-2"href="/onderwerpen/schoolvakanties">
+                  <i class = "right-arow"></i> Schoolvakanties</a>
+             </li>                       
+             <li>
+                 <a class= "style-2-2" href="https://www.rijksoverheid.nl/onderwerpen/brexit/vraag-en-antwoord" class=" " >
+                  <i class = "right-arow"></i> De meest gestelde vragen over Brexit</a>
+             </li>
+             <li>
+                 <a class= "style-2-2" href="/onderwerpen/minimumloon/bedragen-minimumloon/bedragen-minimumloon-2019">
+                  <i class = "right-arow"></i> Bedragen minimumloon 2019</a>
+            </li>                      
+            <li>
+                <a class= "style-2-2" href="https://www.rijksoverheid.nl/onderwerpen/paspoort-en-identiteitskaart/eisen-pasfoto-paspoort-id-kaart" class=" " >
+                  <i class = "right-arow"></i> Eisen pasfoto voor paspoort of id-kaart</a>
+           </li>
+            <li>
+                 <a class= "style-2-2" href="https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/vraag-en-antwoord/officiele-feestdagen" class=" " >
+                  <i class = "right-arow"></i> Officiële feestdagen</a>
+            </li>
+        </ul>
+         </div>  
+        
+        
+             <!--        im her  -->
+                
+                
+                
+                <div class="slide" data-widescreen="true" data-img="/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/schoolvakanties-museumplein-hero.jpg">
+                        <picture>
+                        <source srcset="/binaries/medium/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/schoolvakanties-museumplein-hero.jpg" media="(max-width: 830px)">
+                        <source srcset="/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/schoolvakanties-museumplein-hero.jpg" media="(max-width: 1250px)">
+                        
+                            <source srcset="/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/schoolvakanties-museumplein-hero.jpg" media="(min-width: 1250px)">
+                         
+                        <img src="/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/schoolvakanties-museumplein-hero.jpg" alt="">
+                    </picture>
+                    <p class="copyright">
+        <span>&copy;</span>
+        Hollandse Hoogte</p>
+
+                </div>
+            
+        
+    </div>
+ <!--   my work is her know  beee her -->
+
+    <div class="wrapper">
+      <div class="fourItems">
+        <ul>
+          <li class="navItem">
+                  <a href="/onderwerpen/themas/belastingen-uitkeringen-en-toeslagen">
+                    <div class="content">
+                      <h3>Belastingen, uitkeringen en toeslagen</h3>
+                          <p>Bijstand, AOW, WW-uitkering, Inkomstenbelasting, Wajong ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/bouwen-en-wonen">
+                    <div class="content">
+                      <h3>Bouwen en wonen</h3>
+                          <p>Huurwoning, Huurverhoging, Koopwoning, Energielabel, Bouwregelgeving...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/economie">
+                    <div class="content">
+                      <h3>Economie</h3>
+                          <p>Ondernemen en innovatie, Overheidsfinanciën, Duurzame economie, Zelfstandigen zonder personeel ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/familie-zorg-en-gezondheid">
+                    <div class="content">
+                      <h3>Familie, zorg en gezondheid</h3>
+                          <p>Zorgverzekering, Zorg en ondersteuning thuis, Scheiden of uit elkaar gaan ...</p>
+                        </div>
+                  </a>
+                </li>
+              </ul>
+      </div>
+      <div class="fourItems">
+        <ul>
+          <li class="navItem">
+                  <a href="/onderwerpen/themas/internationale-samenwerking">
+                    <div class="content">
+                      <h3>Internationale samenwerking</h3>
+                          <p>Europese Unie, Brexit, Mensenrechten, Handelsverdragen EU ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/klimaat-milieu-en-natuur">
+                    <div class="content">
+                      <h3>Klimaat, milieu en natuur</h3>
+                          <p>Gaswinning in Groningen, Klimaatverandering, Duurzame energie, Dierenwelzijn ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/migratie-en-reizen">
+                    <div class="content">
+                      <h3>Migratie en reizen</h3>
+                          <p>Paspoort en identiteitskaart, Nederlandse nationaliteit, Reizen met kinderen ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/onderwijs">
+                    <div class="content">
+                      <h3>Onderwijs</h3>
+                          <p>Schoolvakanties, Hoger onderwijs, Basisonderwijs, Werken in het onderwijs ...</p>
+                        </div>
+                  </a>
+                </li>
+              </ul>
+      </div>
+      <div class="fourItems">
+        <ul>
+          <li class="navItem">
+                  <a href="/onderwerpen/themas/overheid-en-democratie">
+                    <div class="content">
+                      <h3>Overheid en democratie</h3>
+                          <p>Privacy en persoonsgegevens, Gemeenten, Provincies, Koninklijk Huis ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/recht-veiligheid-en-defensie">
+                    <div class="content">
+                      <h3>Recht, veiligheid en defensie</h3>
+                          <p>Identiteitsfraude, Terrorisme en nationale veiligheid, Ouderlijk gezag en voogdij ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/verkeer-en-vervoer">
+                    <div class="content">
+                      <h3>Verkeer en vervoer</h3>
+                          <p>Rijbewijs, Verkeersregels, Openbaar vervoer, Verkeersveiligheid, Bijzondere voertuigen ...</p>
+                        </div>
+                  </a>
+                </li>
+              <li class="navItem">
+                  <a href="/onderwerpen/themas/werk">
+                    <div class="content">
+                      <h3>Werk</h3>
+                          <p>Zelfstandigen zonder personeel (zzp), Minimumloon, Ouderschapsverlof, Werktijden, Ontslag ...</p>
+                        </div>
+                  </a>
+                </li>
+              </ul>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrapper">
+    <div id="content" class="article">
+  </div>
+<div class="fullWidthSection">
+  <section class="brickRow spotLight">
+    <h2 class="assistive">
+            Uitgelicht</h2>
+      <div class="brick">
+
+        <a href="/onderwerpen/desinformatie-nepnieuws" class="">
+            <h3>Echt of nep nieuws?</h3>
+            <div class="brick-image">
+                <img src="/binaries/medium/content/gallery/rijksoverheid/banner-afbeeldingen/onderwerpen/d/desinformatie-en-nepnieuws/desinformatie_en_nepnieuws_1200_003.jpg" alt="" />
+
+                </div>
+        <div class="brick-text">
+                <p>
+                    Twijfel je of een (online) bericht echt is?&nbsp;Check de tips om het verschil tussen nep en echt&nbsp;nieuws te herkennen.</p>
+            </div>
+        </a>
+            </div>
+<div class="brick">
+
+        <a href="/onderwerpen/brexit" class="">
+            <h3>Brexit</h3>
+            <div class="brick-image">
+                <img src="/binaries/medium/content/gallery/rijksoverheid/banner-afbeeldingen/home/2018/brexit-uitgelicht.jpg" alt="" />
+
+                <p class="copyright">
+        <span>&copy;</span>
+        ANP</p>
+</div>
+        <div class="brick-text">
+                <p>
+                    De stand van zaken rond de Brexit. En wat gaat er gebeuren, nadat het Verenigd Koninkrijk de Europese Unie heeft verlaten?</p>
+            </div>
+        </a>
+            </div>
+<div class="brick">
+
+        <a href="/onderwerpen/inkomstenbelasting" class="">
+            <h3>Aangifte inkomstenbelasting</h3>
+            <div class="brick-image">
+                <img src="/binaries/medium/content/gallery/rijksoverheid/banner-afbeeldingen/home/2019/aangifte-belastingdienst.jpg" alt="" />
+
+                </div>
+        <div class="brick-text">
+                <p>
+                    Doet u aangifte in maart, dan krijgt u v&oacute;&oacute;r 1&nbsp;juli bericht.</p>
+            </div>
+        </a>
+            </div>
+</section>
+<section class="brickRow nieuws">
+    <h2>
+      Nieuws</h2>
+
+    <div class="brick">
+  <a href="/actueel/nieuws/2019/03/25/nederland-stemt-tegen-nieuwe-regels-export-ww">
+    <h3>
+
+      Nederland stemt tegen nieuwe regels export-ww</h3>
+    <div class="brick-text">
+        <p>
+          <span class="publDate">25-03-2019 | 19:22</span>
+        </p>
+        <p>De Europese Commissie is van plan om de Europese regelgeving rond de sociale zekerheid zo aan te passen dat het makkelijker wordt ...</p>
+        </div>
+  </a>
+
+</div>
+
+<div class="brick">
+  <a href="/actueel/nieuws/2019/03/25/plan-voor-beter-passende-zorg-voor-kwetsbare-jongeren">
+    <h3>
+
+      Plan voor beter passende zorg voor kwetsbare jongeren</h3>
+    <div class="brick-text">
+        <p>
+          <span class="publDate">25-03-2019 | 18:00</span>
+        </p>
+        <p>De best passende zorg voor de kwetsbare jongeren. Dat is het doel van het gezamenlijk actieplan dat de Branches Gespecialiseerde ...</p>
+        </div>
+  </a>
+
+</div>
+
+<div class="brick">
+  <a href="/actueel/nieuws/2019/03/25/overheden-investeren-92-miljoen-euro-in-verduurzaming-ijsselmeervisserij">
+    <h3>
+
+      Overheden investeren 9,2 miljoen euro in verduurzaming IJsselmeervisserij</h3>
+    <div class="brick-text">
+        <p>
+          <span class="publDate">25-03-2019 | 17:21</span>
+        </p>
+        <p>Om een gezonde visstand, een vitaal ecosysteem en een duurzame toekomst voor vissers te bereiken, stellen het kabinet en de ...</p>
+        </div>
+  </a>
+
+</div>
+
+<div class="brick">
+  <a href="/actueel/nieuws/2019/03/25/minister-president-rutte-brengt-bezoek-aan-groningen">
+    <h3>
+
+      Minister-president Rutte brengt bezoek aan Groningen</h3>
+    <div class="brick-text">
+        <p>
+          <span class="publDate">25-03-2019 | 16:11</span>
+        </p>
+        <p>Minister-president Rutte brengt woensdag 27 maart een bezoek aan de provincie Groningen. Het bezoek staat in het teken van de ...</p>
+        </div>
+  </a>
+
+</div>
+
+<div class="brick">
+  <a href="/actueel/nieuws/2019/03/25/europese-subsidie-voor-nederlandse-infraprojecten">
+    <h3>
+
+      Europese subsidie voor Nederlandse infraprojecten</h3>
+    <div class="brick-text">
+        <p>
+          <span class="publDate">25-03-2019 | 12:34</span>
+        </p>
+        <p>Nederland krijgt dit jaar 23 miljoen euro subsidie uit Brussel voor infrastructuurprojecten. Zo komt er 4 miljoen euro voor ...</p>
+        </div>
+  </a>
+
+</div>
+
+<div class="brick">
+  <a href="/actueel/nieuws/2019/03/25/internetconsultatie-wijziging-iow">
+    <h3>
+
+      Internetconsultatie wijziging Wet IOW</h3>
+    <div class="brick-text">
+        <p>
+          <span class="publDate">25-03-2019 | 10:12</span>
+        </p>
+        <p>Op internet is het wijzigingsvoorstel  van de Wet Inkomensvoorziening oudere werklozen (IOW) gepubliceerd.</p>
+        </div>
+  </a>
+
+</div>
+
+<a class="more" href="/actueel/nieuws">Meer nieuws</a>
+
+  </section>
+
+</div><div id="aside">
+
+  <div class="brick banner">
+    <a href="/contact">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" style="enable-background:new 0 0 208 121;" version="1.1" viewBox="0 0 208 121" x="0px" xml:space="preserve" y="0px">
+    <rect class="st0" height="121" id="XMLID_1_" width="208"/>
+    <text class="st1 st2 st3" id="XMLID_2_" transform="matrix(1 0 0 1 63.4326 29.5)">Vragen?</text>
+    <a class="st4" xlink:href="tel:1400">
+        <text class="st1 st2 st4" id="XMLID_3_" transform="matrix(1 0 0 1 69.5903 109.5)">1400</text>
+    </a>
+    <text class="st5 st6" id="XMLID_5_" transform="matrix(1 0 0 1 42.7334 54.75)">Bel Informatie</text>
+    <text class="st5 st6" id="XMLID_6_" transform="matrix(1 0 0 1 43.1113 77)">Rijksoverheid:</text>
+</svg></a>
+  </div>
+<div class="brick banner">
+    <a href="/documenten/publicaties/2016/01/01/nieuwsbrief-regeringsnieuws">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" style="enable-background:new 0 0 270 157;" version="1.1" viewBox="0 0 270 157" x="0px" xml:space="preserve" y="0px">
+                                <style type="text/css">
+                                    .stijl01 {
+                                        fill: #FFFFFF;
+                                        stroke: #CBD2E3;
+                                        stroke-width: 4;
+                                        stroke-miterlimit: 10;
+                                    }
+                                    
+                                    .stijl02 {
+                                        fill: #111111;
+                                        font-size: 23px;
+                                        font-family: "RO Sans", Calibri, Verdana, sans-serif;
+                                    }
+                                                                                                        
+                                    .stijl03 {
+					fill: #a90061;
+					font-weight: bold;
+					font-size: 31px;
+                                        font-family: "RO Sans", Calibri, Verdana, sans-serif;
+                                    }
+
+                                </style>
+                                <rect class="stijl01" height="157" width="270"/>
+                                <text class="stijl02" transform="matrix(1 0 0 1 44 43)">Meld u aan voor de</text>
+                                <text class="stijl03" transform="matrix(1 0 0 1 56 95)">Nieuwsbrief</text>
+                                <text class="stijl03" transform="matrix(1 0 0 1 26 125)">Regeringsnieuws</text>
+                            </svg></a>
+  </div>
+</div></div>
+
+</div>
+<div id="footer">
+  <div class="wrapper">
+
+    <div class="payoff">
+          <span>De Rijksoverheid. Voor Nederland</span>
+        </div>
+
+      <div class="column">
+    <h2>Service</h2>
+    <ul>
+
+    <li>
+        <a href="/contact">Contact</a>
+      </li>
+    <li>
+        <a href="https://abonneren.rijksoverheid.nl/">Abonneren</a>
+      </li>
+    <li>
+        <a href="/rss">RSS</a>
+      </li>
+    <li>
+        <a href="/vacatures">Vacatures</a>
+      </li>
+    <li>
+        <a href="/sitemap">Sitemap</a>
+      </li>
+    <li>
+        <a href="/help">Help</a>
+      </li>
+    <li>
+        <a href="/archief">Archief</a>
+      </li>
+    </ul>
+</div>
+<div class="column">
+    <h2>Over deze site</h2>
+    <ul>
+
+    <li>
+        <a href="/over-rijksoverheid-nl">Over Rijksoverheid.nl</a>
+      </li>
+    <li>
+        <a href="/wetten-en-regelingen">Wetten en regelingen</a>
+      </li>
+    <li>
+        <a href="/copyright">Copyright</a>
+      </li>
+    <li>
+        <a href="/privacy">Privacy</a>
+      </li>
+    <li>
+        <a href="/cookies">Cookies</a>
+      </li>
+    <li>
+        <a href="/toegankelijkheid">Toegankelijkheid</a>
+      </li>
+    <li>
+        <a href="/opendata">Open data</a>
+      </li>
+    </ul>
+</div>
+</div>
+
+  <div class="languages">
+    <div class="wrapper">
+      <ul>
+    <li class=selected>
+         Nederlands</li>
+    <li >
+         <a href="https://www.government.nl" lang="en">English</a>
+            </li>
+    <li >
+         <a href="https://www.gobiernodireino.nl/" lang="pap">Papiamento</a>
+            </li>
+    <li >
+         <a href="https://www.gobiernudireino.nl/" lang="pap">Papiamentu</a>
+            </li>
+    <li >
+         <a href="https://www.rijksoverheid.nl/onderwerpen/overheidscommunicatie/nederlandse-gebarentaal">Nederlandse Gebarentaal</a>
+            </li>
+    </ul>
+</div>
+  </div>
+
+</div>
+</div>
+
+<!--[if (gt IE 10)|!(IE)]><!-->
+<script src="/behaviour/core-2019.2.2.min.js"></script>
+<!--<![endif]-->
+
+<script src="/binaries/content/assets/rijksoverheid/onderzoeken/ro-custom-2019128.1.js"></script>
+</body>
+</html>
