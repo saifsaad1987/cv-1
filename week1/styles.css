@@ -1,0 +1,123 @@
+
+     .profile-picture 
+     {
+       width: 150px;
+       height: 150px ;     
+     }
+     .picture-border 
+     {
+        border-color : blue;   
+        border-width:5px;
+        border-style: inset;
+        border-radius :30px;
+      
+      }
+       .picture-postion 
+        {
+     display: block;
+     margin-right : auto;
+      margin-left :auto; 
+         }
+       
+
+
+    p {
+       margin:2px;
+     
+
+      }
+
+        h1
+        {
+           text-align: center;
+          font-size :70px;
+       }
+      
+       #the-font-name 
+       { 
+           font-family: Indie Flower;
+           font-size:30px;
+           font-style:itatic;
+    
+        }
+body {
+ 
+     background-image :url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/64b79411-cdb8-40be-96c5-b55da5e270d4/d6pyhlv-b0ec059c-1de0-4955-9c57-2950fd6caeb4.jpg/v1/fill/w_900,h_675,q_70,strp/i_love_css_by_rawhearted_d6pyhlv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvNjRiNzk0MTEtY2RiOC00MGJlLTk2YzUtYjU1ZGE1ZTI3MGQ0XC9kNnB5aGx2LWIwZWMwNTljLTFkZTAtNDk1NS05YzU3LTI5NTBmZDZjYWViNC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.1h3ISDLZhQ8_Tm3OgP0Z9WugxqalyOdox607vkkRbxo");
+     background-repeat:no-repeat ;
+     background-position :right top ;
+}
+
+.color-of-link:link 
+{
+  color: red;
+}
+
+
+.color-of-link:visited
+ {
+  color: green;
+}
+
+
+.color-of-link:hover
+ {
+  color: orange;
+}
+
+.color-of-link:active
+ {
+  color: blue;
+}
+  
+  h3 {
+   
+   font-size :20px;   
+  }
+
+  pre {
+ 
+  font-size :15px;
+  }
+
+  h4 {
+font-size : 15px;
+
+  }
+
+  .font-family-utbilding-inhåll 
+  {
+    font-family:  Roboto Mono ;
+    font-size :15px; 
+    color : rgba(red, green, blue, alpha) ;
+  }
+
+  
+
+
+ .link-univercity:link {
+   color: red;
+ }
+ 
+
+ .link-univercity:visited {
+   color: green;
+ }
+ 
+ 
+ .link-univercity:hover {
+   color: orange;
+ }
+ 
+ .link-univercity:active {
+   color: blue;
+ }
+
+ h5
+  {
+  font-size :15px;  
+ 
+ }
+
+ h6 {
+    font-size :15px ; 
+}
